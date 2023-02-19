@@ -60,5 +60,7 @@ I then created a new dataframe, narrowing down the data to fit ideal weatehr cri
 
 I then stored the data into a new variable named hotel_df and prepared to run API calls from Google Places to retrieve hotel data for each of the cities. Once the API call was run and the nearest hotel data was populated in hotel_df, I configured the marker layer as well as added hotel marks to the heatmap. 
 
+As a result, I was able to create two maps highlighting weather conditions for locations across the globe, one of which matches interest for ideal vacation destinations.
+
 
 
