@@ -26,27 +26,27 @@ Findings: Wind speed remains relatively consistent, predominantly in the range o
 Afterwards, I computed the linear regression for each relationship. First, I seperated the plots into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude). The plots showcased the following relationships:
 
 #### Northern Hemisphere: Temperature vs. Latitude
-#### Southern Hemisphere: Temperature vs. Latitude
-
 In the northern hemisphere, Max Temp vs. Latitude has a strong negative correlation.
+
+#### Southern Hemisphere: Temperature vs. Latitude
 In the southern hemisphere, Max Temp vs. Latitude has a moderate positive correlation.
 
 #### Northern Hemisphere: Humidity vs. Latitude
-#### Southern Hemisphere: Humidity vs. Latitude
-
 In the northern hemisphere, Humidity (%) vs. Latitude has no correlation.
+
+#### Southern Hemisphere: Humidity vs. Latitude
 In the southern hemisphere, Humidity (%) vs. Latitude has a weak correlation.
 
 #### Northern Hemisphere: Cloudiness vs. Latitude
-#### Southern Hemisphere: Cloudiness vs. Latitude
-
 In the northern hemisphere, Cloudiness (%) vs. Latitude has no correlation.
+
+#### Southern Hemisphere: Cloudiness vs. Latitude
 In the southern hemisphere, Cloudiness (%) vs. Latitude has no correlation.
 
 #### Northern Hemisphere: Wind Speed vs. Latitude
-#### Southern Hemisphere: Wind Speed vs. Latitude
-
 In the northern hemisphere, Wind Speed (mph) vs. Latitude has no correlation.
+
+#### Southern Hemisphere: Wind Speed vs. Latitude
 In the southern hemisphere, Wind Speed (mph) vs. Latitude has a weak correlation.
 
 ## Part 2: VacationPy
