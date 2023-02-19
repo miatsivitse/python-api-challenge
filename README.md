@@ -1,7 +1,8 @@
 # python-api-challenge
 
-## Part 1: WeatherPy
+## WeatherPy
 
+### Part 1:
 The goal of the WeatherPy was to visualize the weather of over 500 cities of varying distances from the equator by analyzing the relationship between weather variables and latitude.
 
 To accomlish this task, I used the OpenWeatherMap API to retrieve weather data from the cities list that was pre-generated. After creating a cities list, I performed the API calls to OpenWeatherMap. After retrieving the results, I converted the raw data to a dataframe. I then inspected the data to remove the cities where Humidty was greater than 100%. Once the data reflected cities with humidity <100%, I created plots to showcase the relationship between weather variables and latitude. 
@@ -23,6 +24,7 @@ Findings: There is no direct relationship between latitude and cloudiness, as da
 #### Latitude vs. Wind Speed
 Findings: Wind speed remains relatively consistent, predominantly in the range of 0-10 mph, across all latitudes.
 
+### Part 2:
 Afterwards, I computed the linear regression for each relationship. First, I seperated the plots into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude). The plots showcased the following relationships:
 
 #### Northern Hemisphere: Temperature vs. Latitude
@@ -49,7 +51,7 @@ In the northern hemisphere, Wind Speed (mph) vs. Latitude has no correlation.
 #### Southern Hemisphere: Wind Speed vs. Latitude
 In the southern hemisphere, Wind Speed (mph) vs. Latitude has a weak correlation.
 
-## Part 2: VacationPy
+## VacationPy
 
 The goal of this section was to use the Geoapify API and the geoViews Python library to plan future vacation location using map visualizations.
 First, I configured gmaps to create a map, using Lat and Lng as locations and humidity as the weight. I also added a heatmap layer to the map.
