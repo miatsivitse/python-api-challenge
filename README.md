@@ -49,3 +49,14 @@ In the southern hemisphere, Cloudiness (%) vs. Latitude has no correlation.
 In the northern hemisphere, Wind Speed (mph) vs. Latitude has no correlation.
 In the southern hemisphere, Wind Speed (mph) vs. Latitude has a weak correlation.
 
+## Part 2: VacationPy
+
+The goal of this section was to use the Geoapify API and the geoViews Python library to plan future vacation location using map visualizations.
+First, I configured gmaps to create a map, using Lat and Lng as locations and humidity as the weight. I also added a heatmap layer to the map.
+
+I then created a new dataframe, narrowing down the data to fit ideal weatehr criteria, such as a max temperture between 60 degrees and 75 degrees, zero cloudiness and wind speed less than 10 m/s. As a result, the dataset was narrowed down to 19 cities in total. 
+
+I then stored the data into a new variable named hotel_df and prepared to run API calls from Google Places to retrieve hotel data for each of the cities. Once the API call was run and the nearest hotel data was populated in hotel_df, I configured the marker layer as well as added hotel marks to the heatmap. 
+
+
+
